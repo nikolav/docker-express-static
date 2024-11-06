@@ -1,9 +1,11 @@
-
 __pycache__/
 __pypackages__/
+!dist/.gitkeep
 !docs/index.wpp
 !flaskapi/templates/base.html
 !flaskapi/templates/demo.html
+!public/.gitkeep
+!public/.UPLOADS_HERE
 .~lock.*#
 .access
 .aws
@@ -127,7 +129,6 @@ dev.db.sqlite
 develop-eggs/
 dist
 dist/
-!dist/.gitkeep
 dmypy.json
 docs/_build/
 docs/**/*
@@ -167,6 +168,7 @@ pids
 pip-delete-this-directory.txt
 pip-log.txt
 profile_default/
+public/**/*
 redis.conf
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 run-dev.sh
@@ -185,7 +187,3 @@ web_modules/
 wheels/
 yarn-debug.log*
 yarn-error.log*
-
-public/**/*
-!public/.gitkeep
-!public/.UPLOADS_HERE
