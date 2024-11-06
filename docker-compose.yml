@@ -1,0 +1,11 @@
+services:
+  static_express:
+    container_name: static_express
+    build: .
+    ports:
+      - 80:3000
+    env_file:
+      - ./.env
+    # volumes:
+    #   - ./.env:/home/app/.env
+    restart: always
