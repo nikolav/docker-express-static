@@ -127,6 +127,7 @@ dev.db.sqlite
 develop-eggs/
 dist
 dist/
+!dist/.gitkeep
 dmypy.json
 docs/_build/
 docs/**/*
