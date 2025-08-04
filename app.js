@@ -14,6 +14,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // @404
 app.use(function (req, res, next) {
+  console.log(req);
   res.status(404).send("Not Found");
 });
 
